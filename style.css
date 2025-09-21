@@ -190,6 +190,24 @@ footer {
 
 /* -----  MEDIA QUERIES ----- */
 
+@media (max-width: 460px) {
+    #contain {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        margin: 0 1rem 0 1rem;
+        padding: 1rem;
+        gap: .5rem;
+    }
+
+    li {
+        gap: 0;
+        padding: 0;
+    }
+}
+
 @media (min-width: 700px) {
     :root {
         --bg-url: url(./assets/bg-desktop.jpg)
@@ -198,6 +216,8 @@ footer {
     .light {
         --bg-url: url(./assets/bg-desktop-light.jpg)
     }
+
+
 }
 
 /* -----  ANIMAÇÕES  ----- */
